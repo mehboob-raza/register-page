@@ -68,6 +68,15 @@ label {
     align-items: center; 
     padding: 30px;
 }
+.right{
+    display: flex;
+    gap: 20px;
+}
+.log{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
 @media screen and (max-width: 1024px) {
     body{
         background-color: #fff;
@@ -80,8 +89,10 @@ label {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-
-}
+    }
+    .log{
+        display: none;
+    }
 }
 
 @media screen and (max-width:768px){
@@ -93,8 +104,10 @@ label {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-
-}
+    }
+    .log{
+        display: none;
+    }
 }
 
 
@@ -111,6 +124,9 @@ label {
 }
 .language-picker {
             position: relative;
+            display: flex;
+            gap: 20px;
+
             /* width: 200px; Adjust width as needed */
         }
 
